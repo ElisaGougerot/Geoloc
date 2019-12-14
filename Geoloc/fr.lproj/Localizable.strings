@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Geoloc
+
+  Created by Gougerot Elisa on 27/11/2019.
+  Copyright © 2019 Elisa Gougerot. All rights reserved.
+*/
+
+"home.display_commander" = "Commander";
+

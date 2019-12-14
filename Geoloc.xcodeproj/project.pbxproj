@@ -3,25 +3,54 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4C0BD48F238E7A17008786A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BD48E238E7A17008786A6 /* AppDelegate.swift */; };
-		4C0BD491238E7A17008786A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BD490238E7A17008786A6 /* ViewController.swift */; };
-		4C0BD494238E7A17008786A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0BD492238E7A17008786A6 /* Main.storyboard */; };
 		4C0BD496238E7A1A008786A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0BD495238E7A1A008786A6 /* Assets.xcassets */; };
-		4C0BD499238E7A1A008786A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0BD497238E7A1A008786A6 /* LaunchScreen.storyboard */; };
+		4C0BD4A4238E7B5B008786A6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BD4A2238E7B5B008786A6 /* HomeViewController.swift */; };
+		4C0BD4A5238E7B5B008786A6 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0BD4A3238E7B5B008786A6 /* HomeViewController.xib */; };
+		4C0BD4AA238E8F1F008786A6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C0BD4AC238E8F1F008786A6 /* Localizable.strings */; };
+		4C0BD4B7238E92DB008786A6 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BD4B6238E92DB008786A6 /* Restaurant.swift */; };
+		4C0BD4B9238E92EC008786A6 /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BD4B8238E92EC008786A6 /* RestaurantService.swift */; };
+		4C0BD4BD238E94B8008786A6 /* RestaurantMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BD4BC238E94B8008786A6 /* RestaurantMockService.swift */; };
+		4C0BD4C1238E9771008786A6 /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BD4BF238E9771008786A6 /* RestaurantListViewController.swift */; };
+		4C0BD4C2238E9771008786A6 /* RestaurantListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0BD4C0238E9771008786A6 /* RestaurantListViewController.xib */; };
+		4CA793302391829700D78C73 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7932E2391829700D78C73 /* RestaurantTableViewCell.swift */; };
+		4CA793312391829700D78C73 /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA7932F2391829700D78C73 /* RestaurantTableViewCell.xib */; };
+		4CA793332391918B00D78C73 /* RestaurantAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA793322391918B00D78C73 /* RestaurantAPIService.swift */; };
+		4CA793352391A2C100D78C73 /* RestaurantFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA793342391A2C100D78C73 /* RestaurantFactory.swift */; };
+		4CA793382391A95000D78C73 /* RestaurantMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA793362391A95000D78C73 /* RestaurantMapViewController.swift */; };
+		4CA793392391A95000D78C73 /* RestaurantMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA793372391A95000D78C73 /* RestaurantMapViewController.xib */; };
+		4CA7933B2391AA6700D78C73 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA7933A2391AA6700D78C73 /* MapKit.framework */; };
+		DF84F4053D084B13702D0CF7 /* Pods_Geoloc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50B9CAEA07A3B772E515DA9 /* Pods_Geoloc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C0BD48B238E7A17008786A6 /* Geoloc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geoloc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0BD48E238E7A17008786A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C0BD490238E7A17008786A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C0BD493238E7A17008786A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C0BD495238E7A1A008786A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C0BD498238E7A1A008786A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C0BD49A238E7A1A008786A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C0BD4A2238E7B5B008786A6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4C0BD4A3238E7B5B008786A6 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		4C0BD4AE238E8F50008786A6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4C0BD4B0238E8FAF008786A6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4C0BD4B6238E92DB008786A6 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		4C0BD4B8238E92EC008786A6 /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
+		4C0BD4BC238E94B8008786A6 /* RestaurantMockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMockService.swift; sourceTree = "<group>"; };
+		4C0BD4BF238E9771008786A6 /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
+		4C0BD4C0238E9771008786A6 /* RestaurantListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantListViewController.xib; sourceTree = "<group>"; };
+		4CA7932E2391829700D78C73 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		4CA7932F2391829700D78C73 /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
+		4CA793322391918B00D78C73 /* RestaurantAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantAPIService.swift; sourceTree = "<group>"; };
+		4CA793342391A2C100D78C73 /* RestaurantFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFactory.swift; sourceTree = "<group>"; };
+		4CA793362391A95000D78C73 /* RestaurantMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMapViewController.swift; sourceTree = "<group>"; };
+		4CA793372391A95000D78C73 /* RestaurantMapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantMapViewController.xib; sourceTree = "<group>"; };
+		4CA7933A2391AA6700D78C73 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		96AC4E902FBB4C23D3AA62C7 /* Pods-Geoloc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geoloc.debug.xcconfig"; path = "Target Support Files/Pods-Geoloc/Pods-Geoloc.debug.xcconfig"; sourceTree = "<group>"; };
+		B50B9CAEA07A3B772E515DA9 /* Pods_Geoloc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geoloc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3358051AB228EE6B3690D9 /* Pods-Geoloc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geoloc.release.xcconfig"; path = "Target Support Files/Pods-Geoloc/Pods-Geoloc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +58,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA7933B2391AA6700D78C73 /* MapKit.framework in Frameworks */,
+				DF84F4053D084B13702D0CF7 /* Pods_Geoloc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E67C6E5FCA8D0B9AA152273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96AC4E902FBB4C23D3AA62C7 /* Pods-Geoloc.debug.xcconfig */,
+				CB3358051AB228EE6B3690D9 /* Pods-Geoloc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4C0BD482238E7A17008786A6 = {
 			isa = PBXGroup;
 			children = (
 				4C0BD48D238E7A17008786A6 /* Geoloc */,
 				4C0BD48C238E7A17008786A6 /* Products */,
+				0E67C6E5FCA8D0B9AA152273 /* Pods */,
+				CB3BBAFA97CC77F14AFD36BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +96,114 @@
 		4C0BD48D238E7A17008786A6 /* Geoloc */ = {
 			isa = PBXGroup;
 			children = (
+				4C0BD4B2238E9215008786A6 /* Platforms */,
+				4C0BD4B1238E920C008786A6 /* Domains */,
+				4C0BD4A0238E7AF9008786A6 /* Scenes */,
 				4C0BD48E238E7A17008786A6 /* AppDelegate.swift */,
-				4C0BD490238E7A17008786A6 /* ViewController.swift */,
-				4C0BD492238E7A17008786A6 /* Main.storyboard */,
 				4C0BD495238E7A1A008786A6 /* Assets.xcassets */,
-				4C0BD497238E7A1A008786A6 /* LaunchScreen.storyboard */,
 				4C0BD49A238E7A1A008786A6 /* Info.plist */,
+				4C0BD4AC238E8F1F008786A6 /* Localizable.strings */,
 			);
 			path = Geoloc;
+			sourceTree = "<group>";
+		};
+		4C0BD4A0238E7AF9008786A6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4C0BD4BE238E9757008786A6 /* Restaurant */,
+				4C0BD4A1238E7B07008786A6 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4C0BD4A1238E7B07008786A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4C0BD4A2238E7B5B008786A6 /* HomeViewController.swift */,
+				4C0BD4A3238E7B5B008786A6 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4C0BD4B1238E920C008786A6 /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				4C0BD4B3238E9227008786A6 /* Restaurant */,
+			);
+			path = Domains;
+			sourceTree = "<group>";
+		};
+		4C0BD4B2238E9215008786A6 /* Platforms */ = {
+			isa = PBXGroup;
+			children = (
+				4C0BD4BA238E9480008786A6 /* Mock */,
+				4C0BD4B4238E923E008786A6 /* API */,
+			);
+			path = Platforms;
+			sourceTree = "<group>";
+		};
+		4C0BD4B3238E9227008786A6 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				4C0BD4B6238E92DB008786A6 /* Restaurant.swift */,
+				4C0BD4B8238E92EC008786A6 /* RestaurantService.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		4C0BD4B4238E923E008786A6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4C0BD4B5238E9250008786A6 /* Restaurant */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4C0BD4B5238E9250008786A6 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				4CA793322391918B00D78C73 /* RestaurantAPIService.swift */,
+				4CA793342391A2C100D78C73 /* RestaurantFactory.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		4C0BD4BA238E9480008786A6 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				4C0BD4BB238E9493008786A6 /* Restaurant */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		4C0BD4BB238E9493008786A6 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				4C0BD4BC238E94B8008786A6 /* RestaurantMockService.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		4C0BD4BE238E9757008786A6 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				4C0BD4BF238E9771008786A6 /* RestaurantListViewController.swift */,
+				4CA7932F2391829700D78C73 /* RestaurantTableViewCell.xib */,
+				4C0BD4C0238E9771008786A6 /* RestaurantListViewController.xib */,
+				4CA793362391A95000D78C73 /* RestaurantMapViewController.swift */,
+				4CA793372391A95000D78C73 /* RestaurantMapViewController.xib */,
+				4CA7932E2391829700D78C73 /* RestaurantTableViewCell.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		CB3BBAFA97CC77F14AFD36BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CA7933A2391AA6700D78C73 /* MapKit.framework */,
+				B50B9CAEA07A3B772E515DA9 /* Pods_Geoloc.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C0BD49D238E7A1A008786A6 /* Build configuration list for PBXNativeTarget "Geoloc" */;
 			buildPhases = (
+				7D9915568A1E71F4B13C1E93 /* [CP] Check Pods Manifest.lock */,
 				4C0BD487238E7A17008786A6 /* Sources */,
 				4C0BD488238E7A17008786A6 /* Frameworks */,
 				4C0BD489238E7A17008786A6 /* Resources */,
+				2D6AC7C8425EF180A0DA27C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +240,11 @@
 				TargetAttributes = {
 					4C0BD48A238E7A17008786A6 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -106,6 +255,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				es,
 			);
 			mainGroup = 4C0BD482238E7A17008786A6;
 			productRefGroup = 4C0BD48C238E7A17008786A6 /* Products */;
@@ -122,41 +273,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0BD499238E7A1A008786A6 /* LaunchScreen.storyboard in Resources */,
+				4C0BD4AA238E8F1F008786A6 /* Localizable.strings in Resources */,
 				4C0BD496238E7A1A008786A6 /* Assets.xcassets in Resources */,
-				4C0BD494238E7A17008786A6 /* Main.storyboard in Resources */,
+				4CA793392391A95000D78C73 /* RestaurantMapViewController.xib in Resources */,
+				4C0BD4A5238E7B5B008786A6 /* HomeViewController.xib in Resources */,
+				4CA793312391829700D78C73 /* RestaurantTableViewCell.xib in Resources */,
+				4C0BD4C2238E9771008786A6 /* RestaurantListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D6AC7C8425EF180A0DA27C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geoloc/Pods-Geoloc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geoloc/Pods-Geoloc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Geoloc/Pods-Geoloc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D9915568A1E71F4B13C1E93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Geoloc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C0BD487238E7A17008786A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0BD491238E7A17008786A6 /* ViewController.swift in Sources */,
+				4C0BD4B9238E92EC008786A6 /* RestaurantService.swift in Sources */,
+				4CA793352391A2C100D78C73 /* RestaurantFactory.swift in Sources */,
+				4CA793332391918B00D78C73 /* RestaurantAPIService.swift in Sources */,
+				4C0BD4C1238E9771008786A6 /* RestaurantListViewController.swift in Sources */,
+				4CA793382391A95000D78C73 /* RestaurantMapViewController.swift in Sources */,
+				4C0BD4BD238E94B8008786A6 /* RestaurantMockService.swift in Sources */,
 				4C0BD48F238E7A17008786A6 /* AppDelegate.swift in Sources */,
+				4C0BD4A4238E7B5B008786A6 /* HomeViewController.swift in Sources */,
+				4CA793302391829700D78C73 /* RestaurantTableViewCell.swift in Sources */,
+				4C0BD4B7238E92DB008786A6 /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4C0BD492238E7A17008786A6 /* Main.storyboard */ = {
+		4C0BD4AC238E8F1F008786A6 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C0BD493238E7A17008786A6 /* Base */,
+				4C0BD4AE238E8F50008786A6 /* fr */,
+				4C0BD4B0238E8FAF008786A6 /* es */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4C0BD497238E7A1A008786A6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C0BD498238E7A1A008786A6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -166,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -280,6 +479,7 @@
 		};
 		4C0BD49E238E7A1A008786A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AC4E902FBB4C23D3AA62C7 /* Pods-Geoloc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +497,7 @@
 		};
 		4C0BD49F238E7A1A008786A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3358051AB228EE6B3690D9 /* Pods-Geoloc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
